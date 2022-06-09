@@ -1,0 +1,23 @@
+.button {
+  background: #fff;
+  font-size: 15px;
+  padding: 10px 15px;
+  border: 1px solid #000;
+  cursor: pointer;
+
+  transition: box-shadow .3s ease-in-out;
+  &:hover {
+    box-shadow: 0 0 10px -7px #000;
+  }
+
+  &.accent {
+    background: $accent-color;
+    transition: background-color .3s ease-in-out;
+
+    &:hover {
+      background: darken($accent-color, 10%);
+    }
+  }
+
+
+}

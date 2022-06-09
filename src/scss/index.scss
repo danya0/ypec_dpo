@@ -1,0 +1,191 @@
+@import "variables";
+@import "UI";
+@import "modal";
+
+.title {
+  font-size: 20px;
+  text-align: center;
+}
+
+.text {
+  text-align: center;
+}
+
+.wrap {
+  padding: 15px 0;
+
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.row {
+  display: flex;
+  flex-basis: 100%;
+  justify-content: center;
+}
+
+.circle {
+  box-sizing: border-box;
+
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  background: aquamarine;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  text-align: center;
+
+  margin: 0 5px;
+
+  cursor: pointer;
+
+  transition: box-shadow .3s ease-out;
+
+  &:hover {
+    background: darken(aquamarine, 10%);
+    box-shadow: 0 0 15px -5px black;
+  }
+
+  &.selected {
+    border: 2px solid black;
+  }
+}
+
+.all-course {
+  flex-basis: 70%;
+}
+
+.selected-course {
+  flex-basis: 27%;
+  position: relative;
+
+  &:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -2px;
+    height: 100%;
+    background: #000;
+    width: 2px;
+  }
+}
+
+.block {
+  padding: 0 20px;
+
+  &__title {
+    font-size: 22px;
+
+    &:after {
+      content: attr(data-subtitle);
+      display: block;
+      font-size: 16px;
+    }
+  }
+
+  &-wrap {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+}
+
+.course {
+  position: relative;
+  overflow: hidden;
+  box-sizing: border-box;
+  padding: 5px;
+  height: $card-size;
+  width: $card-size;
+  border-radius: 5px;
+  font-size: 17px;
+  text-align: center;
+  cursor: pointer;
+
+  /*background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('https://asw2.ftcdn.net/v2/jpg/02/83/46/33/1000_F_283463385_mfnrx6RPU3BqObhVuVjYZjeZ5pegE7xq.jpg') center;*/
+  color: #fff;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  transition: transform .3s ease-in-out;
+
+  &-wrap {
+    display: grid;
+    grid-auto-rows: $card-size;
+    grid-template-columns: repeat(5, $card-size);
+    width: 100%;
+    justify-content: space-between;
+    grid-row-gap: 10px;
+
+    &.selected {
+      grid-template-columns: repeat(2, $card-size);
+    }
+  }
+
+  &__img {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    transition: transform .3s ease-in-out;
+  }
+
+  &__text {
+    word-break: break-word;
+    position: relative;
+    z-index: 1;
+  }
+
+  &:hover .course__img {
+    transform: scale(1.2);
+  }
+
+  // states
+  $regular: green;
+  $advanced: darkred;
+
+  &.with-state {
+    &:before {
+      z-index: 1;
+      content: '';
+      background: red;
+      padding: 3px;
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+  }
+
+  &.regular {
+    box-sizing: border-box;
+    border: 5px solid $regular;
+
+    &:before {
+      content: 'Обычный';
+      background: $regular;
+    }
+  }
+
+  &.advanced {
+    box-sizing: border-box;
+    border: 5px solid $advanced;
+
+    &:before {
+      content: 'Продвинутый';
+      background: $advanced;
+    }
+  }
+}
+
+.button-wrap {
+  display: flex;
+  justify-content: flex-end;
+
+  & button {
+    margin: 0 5px;
+  }
+
+}
