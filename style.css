@@ -1,0 +1,242 @@
+/*!******************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[0].use[2]!./src/scss/index.scss ***!
+  \******************************************************************************************************************************************/
+@charset "UTF-8";
+.button {
+  background: #fff;
+  font-size: 15px;
+  padding: 10px 15px;
+  border: 1px solid #000;
+  cursor: pointer;
+  transition: box-shadow 0.3s ease-in-out;
+}
+.button:hover {
+  box-shadow: 0 0 10px -7px #000;
+}
+.button.accent {
+  background: aquamarine;
+  transition: background-color 0.3s ease-in-out;
+}
+.button.accent:hover {
+  background: #4cffc3;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 2;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  width: 100vw;
+  background: rgba(0, 0, 0, 0.75);
+  /*display: flex;*/
+  justify-content: center;
+  align-items: center;
+}
+.modal.show {
+  display: flex;
+}
+.modal-container {
+  height: 500px;
+  width: 1000px;
+  background: #ffffff;
+  border-radius: 5px;
+  overflow: hidden;
+  display: flex;
+}
+.modal-content {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  padding: 20px 30px;
+}
+.modal-block {
+  display: flex;
+  justify-content: flex-end;
+}
+.modal-block button {
+  margin: 0 5px;
+}
+.modal-fieldset {
+  margin-bottom: 20px;
+}
+.modal__img {
+  width: 40%;
+  object-fit: cover;
+}
+.modal__title {
+  font-size: 25px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.modal__describe {
+  text-indent: 1.5em;
+  flex-grow: 1;
+}
+.modal__describe > * {
+  text-indent: 1.5em;
+}
+.modal__text {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.modal__text span {
+  font-weight: bold;
+}
+
+.title {
+  font-size: 20px;
+  text-align: center;
+}
+
+.text {
+  text-align: center;
+}
+
+.wrap {
+  padding: 15px 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.row {
+  display: flex;
+  flex-basis: 100%;
+  justify-content: center;
+}
+
+.circle {
+  box-sizing: border-box;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  background: aquamarine;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  text-align: center;
+  margin: 0 5px;
+  cursor: pointer;
+  transition: box-shadow 0.3s ease-out;
+}
+.circle:hover {
+  background: #4cffc3;
+  box-shadow: 0 0 15px -5px black;
+}
+.circle.selected {
+  border: 2px solid black;
+}
+
+.all-course {
+  flex-basis: 70%;
+}
+
+.selected-course {
+  flex-basis: 27%;
+  position: relative;
+}
+.selected-course:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -2px;
+  height: 100%;
+  background: #000;
+  width: 2px;
+}
+
+.block {
+  padding: 0 20px;
+}
+.block__title {
+  font-size: 22px;
+}
+.block__title:after {
+  content: attr(data-subtitle);
+  display: block;
+  font-size: 16px;
+}
+.block-wrap {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.course {
+  position: relative;
+  overflow: hidden;
+  box-sizing: border-box;
+  padding: 5px;
+  height: 150px;
+  width: 150px;
+  border-radius: 5px;
+  font-size: 17px;
+  text-align: center;
+  cursor: pointer;
+  /*background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('https://asw2.ftcdn.net/v2/jpg/02/83/46/33/1000_F_283463385_mfnrx6RPU3BqObhVuVjYZjeZ5pegE7xq.jpg') center;*/
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.3s ease-in-out;
+}
+.course-wrap {
+  display: grid;
+  grid-auto-rows: 150px;
+  grid-template-columns: repeat(5, 150px);
+  width: 100%;
+  justify-content: space-between;
+  grid-row-gap: 10px;
+}
+.course-wrap.selected {
+  grid-template-columns: repeat(2, 150px);
+}
+.course__img {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  transition: transform 0.3s ease-in-out;
+}
+.course__text {
+  word-break: break-word;
+  position: relative;
+  z-index: 1;
+}
+.course:hover .course__img {
+  transform: scale(1.2);
+}
+.course.with-state:before {
+  z-index: 1;
+  content: "";
+  background: red;
+  padding: 3px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.course.regular {
+  box-sizing: border-box;
+  border: 5px solid green;
+}
+.course.regular:before {
+  content: "Обычный";
+  background: green;
+}
+.course.advanced {
+  box-sizing: border-box;
+  border: 5px solid darkred;
+}
+.course.advanced:before {
+  content: "Продвинутый";
+  background: darkred;
+}
+
+.button-wrap {
+  display: flex;
+  justify-content: flex-end;
+}
+.button-wrap button {
+  margin: 0 5px;
+}
