@@ -13,15 +13,6 @@ const placeholder: DpoObject = {
             }
         },
         {
-            title: 'test',
-            describe: 'хуй <span>привет</span>',
-            image: 'https://rozetked.me/images/uploads/dwoilp3BVjlE.jpg',
-            hours: {
-                regular: 36,
-                advanced: 20
-            }
-        },
-        {
             title: 'Web-разработка',
             describe: 'WEB-разработка — процедура создания WEB-приложения или WEB-сайта. Основными этапами этого процесса являются такие мероприятия, как WEB-дизайн, вёрстка страниц сайта, WEB-программирование на стороне сервера и клиента, а также работы по конфигурированию WEB-сервера',
             image: 'https://rozetked.me/images/uploads/dwoilp3BVjlE.jpg',
