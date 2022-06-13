@@ -1,6 +1,11 @@
 @import "variables";
 @import "UI";
 @import "modal";
+@import "form";
+
+html {
+  scroll-behavior: smooth;
+}
 
 .title {
   font-size: 20px;

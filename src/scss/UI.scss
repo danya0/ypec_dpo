@@ -19,5 +19,8 @@
     }
   }
 
-
+  &.not-allowed {
+    background: #888888;
+    cursor: not-allowed;
+  }
 }

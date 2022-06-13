@@ -8,8 +8,13 @@ export interface Course {
     }
 }
 
-export interface DpoObject {
-    [department: string]: Course[]
+export interface Department {
+    [name: string]: {
+        options: {
+            circleColor: string
+        },
+        items: Course[]
+    }
 }
 
 export interface CourseWithState extends Course {

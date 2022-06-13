@@ -11,7 +11,7 @@
 <body>
     <div class="modal">
         <div class="modal-container">
-            <img class="modal__img" src="https://n1s1.elle.ru/48/7b/36/487b36300c62c5f0cb905da52aa874b4/728x486_1_30b570c2f6c0da65bb56095068e05768@940x627_0xc0a839a4_18087198581488362059.jpeg" alt="alt">
+            <img class="modal__img" src="" alt="alt">
             <div class="modal-content">
                 <div class="modal__title">Физико-химические методы анализа в деятельности испытательной лаборатории</div>
                 <div class="modal__text">Количество часов: <span class="hours">48</span></div>
@@ -61,8 +61,28 @@
         </div>
         <div class="button-wrap">
             <button class="button remove">Удалить все выбранные курсы</button>
-            <button class="button accent send">Отправить заявку</button>
+            <button class="button accent send">Заполнить заявку</button>
         </div>
+
+        <form action="#" class="form">
+            <div class="form-image" style="background: url('img/form.jpg') center / cover no-repeat;"></div>
+            <div class="form-content">
+
+                <div class="form-inputs">
+                    <div class="form-row">
+                        <label for="fio" class="form__label">ФИО:</label>
+                        <input class="form__input" id="fio" required type="text">
+                    </div>
+                    <div class="form-row">
+                        <label for="number" class="form__label">Номер телефона (в формате 7999002121):</label>
+                        <input class="form__input" id="number" maxlength="11" pattern="[0-9]{11}" required type="tel">
+                    </div>
+                </div>
+                <div class="form-buttons">
+                    <input type="submit" class="button accent" value="Отправить заявку">
+                </div>
+            </div>
+        </form>
     </div>
 </body>
 </html>
