@@ -29,6 +29,8 @@
   }
 
   &-content {
+    overflow-x: hidden;
+    overflow-y: auto;
     display: flex;
     flex-grow: 1;
     flex-direction: column;
@@ -62,7 +64,8 @@
   }
 
   &__describe {
-      text-indent: 1.5em;
+    margin-bottom: 20px;
+    text-indent: 1.5em;
     & > * {
       text-indent: 1.5em;
     }
