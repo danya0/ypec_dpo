@@ -54,7 +54,6 @@ export class Modal {
     }
 
     hideModal(): void {
-        console.log('hide modal')
         document.body.style.overflow = 'auto'
         this.$modal.classList.remove('show')
     }
