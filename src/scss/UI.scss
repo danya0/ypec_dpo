@@ -13,6 +13,7 @@
   &.accent {
     background: $accent-color;
     transition: background-color .3s ease-in-out;
+    color: #ffffff;
 
     &:hover {
       background: darken($accent-color, 10%);
@@ -20,7 +21,9 @@
   }
 
   &.not-allowed {
-    background: #888888;
+    background: #5a6268;
+    color: #ffffff;
     cursor: not-allowed;
+    border: none;
   }
 }

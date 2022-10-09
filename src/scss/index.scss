@@ -47,11 +47,7 @@ html {
   cursor: pointer;
 
   transition: box-shadow .3s ease-out;
-
-  &:hover {
-    background: darken(aquamarine, 10%);
-    box-shadow: 0 0 15px -5px black;
-  }
+  box-shadow: 0 0 15px -5px black;
 
   &.selected {
     border: 2px solid black;

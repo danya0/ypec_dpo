@@ -5,7 +5,7 @@ import './validateForm'
 const placeholder: Department = {
     ['IT-Сфера']: {
         options: {
-            circleColor: '#7F9BFF'
+            circleColor: '#69bdbf'
         },
         items: [
             {
@@ -40,7 +40,7 @@ const placeholder: Department = {
     },
     ['Химические технологии']: {
         options: {
-            circleColor: '#7FFFD4'
+            circleColor: '#cbdee4'
         },
         items: [
             {
@@ -83,7 +83,7 @@ const placeholder: Department = {
     },
     ['Правовое']: {
         options: {
-            circleColor: '#8AFF6C'
+            circleColor: '#fdfdbf'
         },
         items: [
             {
@@ -118,7 +118,7 @@ const placeholder: Department = {
     },
     ['Техническое']: {
         options: {
-            circleColor: '#FF9B53'
+            circleColor: '#e3aeb8'
         },
         items: [
             {
@@ -162,7 +162,7 @@ const placeholder: Department = {
     },
     ['Финансово-экономическое']: {
         options: {
-            circleColor: '#FFE381'
+            circleColor: '#c0a2be'
         },
         items: [
             {

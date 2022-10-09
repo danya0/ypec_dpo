@@ -18,6 +18,11 @@
     width: 360px;
   }
 
+  &-left {
+    padding: 30px;
+    flex-grow: 1;
+  }
+
   &-row {
     display: flex;
     flex-direction: column;

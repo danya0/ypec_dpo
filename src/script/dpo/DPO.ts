@@ -177,7 +177,7 @@ export class DPO {
 
             const el = document.querySelector('form.form')
             const fioInput: HTMLInputElement = document.querySelector('input#fio')
-            el.scrollIntoView()
+            el.scrollIntoView({block: 'center', behavior: 'smooth'})
             fioInput.focus()
         })
     }
