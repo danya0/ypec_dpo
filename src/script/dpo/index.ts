@@ -148,15 +148,6 @@ const placeholder: Department = {
                     regular: 36,
                     advanced: 20
                 }
-            },
-            {
-                title: 'Система автоматизированного проектирования: программа «Autocad»',
-                describe: 'тамтаомтаолывад лвжал выждап лваоп лваооплвао пав',
-                image: 'img/5.jpg',
-                hours: {
-                    regular: 10,
-                    advanced: 20
-                }
             }
         ]
     },
