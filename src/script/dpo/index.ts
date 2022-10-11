@@ -125,7 +125,7 @@ const placeholder: Department = {
                 title: 'Основы информационных технологий в профессиональной деятельности',
                 describe: 'Программа направлена на формирование у обучающихся профессиональных навыков работы на персональном компьютере, пользования устройствами ввода-вывода и носителями данных, применения стандартного программного обеспечения, создания и обработки различных учебных и конструкторских документов и чертежей.\n' +
                     'Система «Компас-3D» предназначена для создания трёхмерных ассоциативных моделей отдельных деталей (в том числе, деталей, формируемых из листового материала путём его гибки) и сборочных единиц, содержащих как оригинальные, так и стандартизованные конструктивные элементы. Параметрическая технология позволяет быстро получать модели типовых изделий на основе проектированного ранее прототипа. Многочисленные сервисные функции облегчают решение вспомогательных задач проектирования и обслуживания производства.\n',
-                image: 'https://sun9-east.userapi.com/sun9-21/s/v1/ig2/IQXBTLxBEcP9zVGYv-EdELaLNMAK6z8AO9YDdUPi5ovlFjsObWpl94DBKEbN6BX_wFhHWhNhY6bVuF9QJfjY2vHi.jpg?size=226x240&quality=95&type=album',
+                image: 'https://sun9-north.userapi.com/sun9-88/s/v1/ig2/WXvzlLz_nqE7HcIdPILylwGl69Zxg02gdjkjLzfgvPu3eRBvQid9LQE-kBLOzOaWwP3bsnCq2UyFuibNrNtse1mz.jpg?size=189x204&quality=95&type=album',
                 hours: {
                     regular: 10,
                     advanced: 20
@@ -134,7 +134,7 @@ const placeholder: Department = {
             {
                 title: 'Основы прототипирования (3D принтер)',
                 describe: 'Принцип работы технологии заключается в создании физического объекта на основе цифровой 3D-модели. Сначала создается CAD-модель, а затем происходит печать на 3D-принтере',
-                image: 'https://sun9-east.userapi.com/sun9-21/s/v1/ig2/IQXBTLxBEcP9zVGYv-EdELaLNMAK6z8AO9YDdUPi5ovlFjsObWpl94DBKEbN6BX_wFhHWhNhY6bVuF9QJfjY2vHi.jpg?size=226x240&quality=95&type=album',
+                image: 'https://sun9-north.userapi.com/sun9-88/s/v1/ig2/WXvzlLz_nqE7HcIdPILylwGl69Zxg02gdjkjLzfgvPu3eRBvQid9LQE-kBLOzOaWwP3bsnCq2UyFuibNrNtse1mz.jpg?size=189x204&quality=95&type=album',
                 hours: {
                     regular: 36,
                     advanced: 20
@@ -143,7 +143,7 @@ const placeholder: Department = {
             {
                 title: 'Изготовление и ремонт вспомогательного оборудования',
                 describe: 'Жестяницкие работы широко применяются в машиностроении, строительстве, сельском хозяйстве и др. Вспомогательным оборудованием на предприятиях химической промышленности служат воздуховоды, водостоки, пыле- и газоуловители, вытяжные шкафы, бункеры, вентиляционные установки и устройства приточной вентиляции',
-                image: 'https://sun9-east.userapi.com/sun9-21/s/v1/ig2/IQXBTLxBEcP9zVGYv-EdELaLNMAK6z8AO9YDdUPi5ovlFjsObWpl94DBKEbN6BX_wFhHWhNhY6bVuF9QJfjY2vHi.jpg?size=226x240&quality=95&type=album',
+                image: 'https://sun9-north.userapi.com/sun9-88/s/v1/ig2/WXvzlLz_nqE7HcIdPILylwGl69Zxg02gdjkjLzfgvPu3eRBvQid9LQE-kBLOzOaWwP3bsnCq2UyFuibNrNtse1mz.jpg?size=189x204&quality=95&type=album',
                 hours: {
                     regular: 36,
                     advanced: 20
@@ -152,7 +152,7 @@ const placeholder: Department = {
             {
                 title: 'Система автоматизированного проектирования: программа «Autocad»',
                 describe: 'тамтаомтаолывад лвжал выждап лваоп лваооплвао пав',
-                image: 'https://sun9-east.userapi.com/sun9-21/s/v1/ig2/IQXBTLxBEcP9zVGYv-EdELaLNMAK6z8AO9YDdUPi5ovlFjsObWpl94DBKEbN6BX_wFhHWhNhY6bVuF9QJfjY2vHi.jpg?size=226x240&quality=95&type=album',
+                image: 'https://sun9-north.userapi.com/sun9-88/s/v1/ig2/WXvzlLz_nqE7HcIdPILylwGl69Zxg02gdjkjLzfgvPu3eRBvQid9LQE-kBLOzOaWwP3bsnCq2UyFuibNrNtse1mz.jpg?size=189x204&quality=95&type=album',
                 hours: {
                     regular: 10,
                     advanced: 20
