@@ -5,13 +5,13 @@ import './validateForm'
 const placeholder: Department = {
     ['IT-Сфера']: {
         options: {
-            circleColor: '#69bdbf'
+            circleColor: '#cbdee4'
         },
         items: [
             {
                 title: 'Разработка мобильных приложений',
                 describe: 'Разработка приложений для мобильных устройств — это процесс, при котором приложения разрабатываются для небольших портативных устройств, таких, как КПК, смартфоны или сотовые телефоны. Эти приложения могут быть предустановлены на устройство в процессе производства, загружены пользователем с помощью различных платформ для распространения ПО или являться веб-приложениями, которые обрабатываются на стороне клиента (JavaScript) или сервера.',
-                image: 'https://rozetked.me/images/uploads/dwoilp3BVjlE.jpg',
+                image: 'https://sun9-west.userapi.com/sun9-5/s/v1/ig2/YmaJvIbFj2Z7aIhAOkN8nwtW7YsEgFpIZWhTGkP5ehn45FylaRVOncicebQ5APKSDz60OkQGLQMdixeXWDiC-HU0.jpg?size=196x198&quality=95&type=album',
                 hours: {
                     regular: 36,
                     advanced: 20
@@ -20,7 +20,7 @@ const placeholder: Department = {
             {
                 title: 'Web-разработка',
                 describe: 'WEB-разработка — процедура создания WEB-приложения или WEB-сайта. Основными этапами этого процесса являются такие мероприятия, как WEB-дизайн, вёрстка страниц сайта, WEB-программирование на стороне сервера и клиента, а также работы по конфигурированию WEB-сервера',
-                image: 'https://rozetked.me/images/uploads/dwoilp3BVjlE.jpg',
+                image: 'https://sun9-west.userapi.com/sun9-5/s/v1/ig2/YmaJvIbFj2Z7aIhAOkN8nwtW7YsEgFpIZWhTGkP5ehn45FylaRVOncicebQ5APKSDz60OkQGLQMdixeXWDiC-HU0.jpg?size=196x198&quality=95&type=album',
                 hours: {
                     regular: 36,
                     advanced: 20
@@ -30,7 +30,7 @@ const placeholder: Department = {
                 title: 'Обработка цифровой информации',
                 describe: 'Программа ориентирована на желающих разобраться и погрузиться в постоянно меняющееся окружающее нас цифровое пространство. В этом курсе слушатели научатся: обработке текста в современном текстовом процессоре; работе и обработке цифровой информации в электронных таблицах; вводу, редактированию и актуализации информации в базах данных; сканированию и распознаванию текстовых документов; сканированию и обработке графических изображений; размещению, редактированию и актуализации цифровой информацию на сайте с помощью системы управления контентом CMS.\n' +
                     '<br/>Программа предназначена для специалистов, желающих научиться собирать информацию, редактировать и актуализировать цифровую информацию при создании цифровых информационных ресурсов.\n',
-                image: 'https://rozetked.me/images/uploads/dwoilp3BVjlE.jpg',
+                image: 'https://sun9-west.userapi.com/sun9-5/s/v1/ig2/YmaJvIbFj2Z7aIhAOkN8nwtW7YsEgFpIZWhTGkP5ehn45FylaRVOncicebQ5APKSDz60OkQGLQMdixeXWDiC-HU0.jpg?size=196x198&quality=95&type=album',
                 hours: {
                     regular: 10,
                     advanced: 20
@@ -40,13 +40,13 @@ const placeholder: Department = {
     },
     ['Химические технологии']: {
         options: {
-            circleColor: '#cbdee4'
+            circleColor: '#fdfdbf'
         },
         items: [
             {
                 title: 'Экспертиза качества сырья и готовой продукции',
                 describe: 'Экспертиза качества — это специальное исследование, проводимое по инициативе продавца или покупателя, с целью оценки качества товара или определения причин возникновения дефектов. Проводить экспертизу качества имеют право только эксперты аккредитованных испытательных лабораторий. Программа направлена на изучение обучающимися теоретических знаний и приобретение практических навыков и умений в сфере экспертизы качества. ',
-                image: 'https://s5o.ru/storage/simple/cyber/edt/1f/89/7a/35/cyberef5121d7b08.png',
+                image: 'https://sun9-east.userapi.com/sun9-59/s/v1/ig2/6Nw9vnmlCJF08AAZxQty_QzTrQawoDlDc6EwtB0AFRKVZGv0WtN4KkLxjNH2tVrqSSvArCUf9LC8wx7feAkcg889.jpg?size=172x204&quality=95&type=album',
                 hours: {
                     regular: 10,
                     advanced: 20
@@ -55,7 +55,7 @@ const placeholder: Department = {
             {
                 title: 'Основы технологии фармацевтического производства',
                 describe: 'Программа рассматривает взаимосвязь химической структуры и фармакологической активности лекарственных средств; промышленный способ получения лекарственных средств, технологические схемы производства лекарственных препаратов и аппаратурное оформление; требования правил надлежащей производственной практики (GMP) к производству и контролю качества лекарственных средств; стандартизацию лекарственных средств и валидацию методов их анализа и производства.',
-                image: 'https://s5o.ru/storage/simple/cyber/edt/1f/89/7a/35/cyberef5121d7b08.png',
+                image: 'https://sun9-east.userapi.com/sun9-59/s/v1/ig2/6Nw9vnmlCJF08AAZxQty_QzTrQawoDlDc6EwtB0AFRKVZGv0WtN4KkLxjNH2tVrqSSvArCUf9LC8wx7feAkcg889.jpg?size=172x204&quality=95&type=album',
                 hours: {
                     regular: 36,
                     advanced: 20
@@ -64,7 +64,7 @@ const placeholder: Department = {
             {
                 title: 'Лабораторный химический анализ',
                 describe: 'Программа «Лабораторный химический анализ» предназначена для обучающихся, проявляющих повышенный интерес к химии и собирающихся продолжить образование в учебных заведениях естественнонаучного профиля. Суть программы заключается в сочетании различных форм работы, направленных на углубление у обучающихся основ химического анализа, умения выбирать методы проведения химического анализа, производить основные лабораторные операции и осуществлять расчеты содержания компонентов исследуемых объектов.',
-                image: 'https://s5o.ru/storage/simple/cyber/edt/1f/89/7a/35/cyberef5121d7b08.png',
+                image: 'https://sun9-east.userapi.com/sun9-59/s/v1/ig2/6Nw9vnmlCJF08AAZxQty_QzTrQawoDlDc6EwtB0AFRKVZGv0WtN4KkLxjNH2tVrqSSvArCUf9LC8wx7feAkcg889.jpg?size=172x204&quality=95&type=album',
                 hours: {
                     regular: 36,
                     advanced: 20
@@ -73,7 +73,7 @@ const placeholder: Department = {
             {
                 title: 'Основы микробиологического анализа',
                 describe: 'Описаниие',
-                image: 'https://s5o.ru/storage/simple/cyber/edt/1f/89/7a/35/cyberef5121d7b08.png',
+                image: 'https://sun9-east.userapi.com/sun9-59/s/v1/ig2/6Nw9vnmlCJF08AAZxQty_QzTrQawoDlDc6EwtB0AFRKVZGv0WtN4KkLxjNH2tVrqSSvArCUf9LC8wx7feAkcg889.jpg?size=172x204&quality=95&type=album',
                 hours: {
                     regular: 10,
                     advanced: 20
@@ -83,13 +83,13 @@ const placeholder: Department = {
     },
     ['Правовое']: {
         options: {
-            circleColor: '#fdfdbf'
+            circleColor: '#c0a2be'
         },
         items: [
             {
                 title: 'Управление персоналом',
                 describe: 'Управление персоналом – это практическая деятельность, которая направлена на обеспечение предприятия квалифицированным персоналом, способным качественно выполнять возложенные на него трудовые функции, и оптимальное использование кадрами. Управление персоналом является одной из основных составных частей современного менеджмента.',
-                image: 'https://rozetked.me/images/uploads/dwoilp3BVjlE.jpg',
+                image: 'https://sun9-east.userapi.com/sun9-17/s/v1/ig2/2OmwBbeEvbxs3e44ByyucHuWNYC4Px7xoRIMQ32-V6sV4qsdMEoz4q3i2bvWUUvjBA-RGatHDPZT0fHGBQ2shlsB.jpg?size=164x158&quality=95&type=album',
                 hours: {
                     regular: 36,
                     advanced: 20
@@ -98,7 +98,7 @@ const placeholder: Department = {
             {
                 title: 'Справочно-правовые системы в профессиональной деятельности',
                 describe: 'Справочно-правовые системы (информационно-правовые системы) — класс компьютерных баз данных, содержащих тексты указов, постановлений и решений различных государственных органов. Подкрепленные нормативными документами, они также содержат консультации специалистов по праву, бухгалтерскому и налоговому учету, судебные решения, типовые формы деловых документов и др.',
-                image: 'https://rozetked.me/images/uploads/dwoilp3BVjlE.jpg',
+                image: 'https://sun9-east.userapi.com/sun9-17/s/v1/ig2/2OmwBbeEvbxs3e44ByyucHuWNYC4Px7xoRIMQ32-V6sV4qsdMEoz4q3i2bvWUUvjBA-RGatHDPZT0fHGBQ2shlsB.jpg?size=164x158&quality=95&type=album',
                 hours: {
                     regular: 10,
                     advanced: 20
@@ -108,7 +108,7 @@ const placeholder: Department = {
                 title: 'Страховые операции в профессиональной деятельности',
                 describe: 'Программа направлена на освоение знаний и практических навыков по использованию методов страховой защиты, понять возможности страхового дела, стать активным и эффективным субъектом страховых отношений.\n' +
                     'Смысл страхования состоит в минимизации ущерба при наступлении неблагоприятных обстоятельств, сопряженных с убытками.\n',
-                image: 'https://rozetked.me/images/uploads/dwoilp3BVjlE.jpg',
+                image: 'https://sun9-east.userapi.com/sun9-17/s/v1/ig2/2OmwBbeEvbxs3e44ByyucHuWNYC4Px7xoRIMQ32-V6sV4qsdMEoz4q3i2bvWUUvjBA-RGatHDPZT0fHGBQ2shlsB.jpg?size=164x158&quality=95&type=album',
                 hours: {
                     regular: 10,
                     advanced: 20
@@ -125,7 +125,7 @@ const placeholder: Department = {
                 title: 'Основы информационных технологий в профессиональной деятельности',
                 describe: 'Программа направлена на формирование у обучающихся профессиональных навыков работы на персональном компьютере, пользования устройствами ввода-вывода и носителями данных, применения стандартного программного обеспечения, создания и обработки различных учебных и конструкторских документов и чертежей.\n' +
                     'Система «Компас-3D» предназначена для создания трёхмерных ассоциативных моделей отдельных деталей (в том числе, деталей, формируемых из листового материала путём его гибки) и сборочных единиц, содержащих как оригинальные, так и стандартизованные конструктивные элементы. Параметрическая технология позволяет быстро получать модели типовых изделий на основе проектированного ранее прототипа. Многочисленные сервисные функции облегчают решение вспомогательных задач проектирования и обслуживания производства.\n',
-                image: 'https://rozetked.me/images/uploads/dwoilp3BVjlE.jpg',
+                image: 'https://sun9-east.userapi.com/sun9-21/s/v1/ig2/IQXBTLxBEcP9zVGYv-EdELaLNMAK6z8AO9YDdUPi5ovlFjsObWpl94DBKEbN6BX_wFhHWhNhY6bVuF9QJfjY2vHi.jpg?size=226x240&quality=95&type=album',
                 hours: {
                     regular: 10,
                     advanced: 20
@@ -134,7 +134,7 @@ const placeholder: Department = {
             {
                 title: 'Основы прототипирования (3D принтер)',
                 describe: 'Принцип работы технологии заключается в создании физического объекта на основе цифровой 3D-модели. Сначала создается CAD-модель, а затем происходит печать на 3D-принтере',
-                image: 'https://rozetked.me/images/uploads/dwoilp3BVjlE.jpg',
+                image: 'https://sun9-east.userapi.com/sun9-21/s/v1/ig2/IQXBTLxBEcP9zVGYv-EdELaLNMAK6z8AO9YDdUPi5ovlFjsObWpl94DBKEbN6BX_wFhHWhNhY6bVuF9QJfjY2vHi.jpg?size=226x240&quality=95&type=album',
                 hours: {
                     regular: 36,
                     advanced: 20
@@ -143,7 +143,7 @@ const placeholder: Department = {
             {
                 title: 'Изготовление и ремонт вспомогательного оборудования',
                 describe: 'Жестяницкие работы широко применяются в машиностроении, строительстве, сельском хозяйстве и др. Вспомогательным оборудованием на предприятиях химической промышленности служат воздуховоды, водостоки, пыле- и газоуловители, вытяжные шкафы, бункеры, вентиляционные установки и устройства приточной вентиляции',
-                image: 'https://rozetked.me/images/uploads/dwoilp3BVjlE.jpg',
+                image: 'https://sun9-east.userapi.com/sun9-21/s/v1/ig2/IQXBTLxBEcP9zVGYv-EdELaLNMAK6z8AO9YDdUPi5ovlFjsObWpl94DBKEbN6BX_wFhHWhNhY6bVuF9QJfjY2vHi.jpg?size=226x240&quality=95&type=album',
                 hours: {
                     regular: 36,
                     advanced: 20
@@ -152,7 +152,7 @@ const placeholder: Department = {
             {
                 title: 'Система автоматизированного проектирования: программа «Autocad»',
                 describe: 'тамтаомтаолывад лвжал выждап лваоп лваооплвао пав',
-                image: 'https://rozetked.me/images/uploads/dwoilp3BVjlE.jpg',
+                image: 'https://sun9-east.userapi.com/sun9-21/s/v1/ig2/IQXBTLxBEcP9zVGYv-EdELaLNMAK6z8AO9YDdUPi5ovlFjsObWpl94DBKEbN6BX_wFhHWhNhY6bVuF9QJfjY2vHi.jpg?size=226x240&quality=95&type=album',
                 hours: {
                     regular: 10,
                     advanced: 20
@@ -162,13 +162,13 @@ const placeholder: Department = {
     },
     ['Финансово-экономическое']: {
         options: {
-            circleColor: '#c0a2be'
+            circleColor: '#69bdbf'
         },
         items: [
             {
                 title: 'Страховые операции в профессиональной деятельности',
                 describe: 'тамтаомтаолывад лвжал выждап лваоп лваооплвао пав',
-                image: 'https://rozetked.me/images/uploads/dwoilp3BVjlE.jpg',
+                image: 'https://sun9-east.userapi.com/sun9-21/s/v1/ig2/IQXBTLxBEcP9zVGYv-EdELaLNMAK6z8AO9YDdUPi5ovlFjsObWpl94DBKEbN6BX_wFhHWhNhY6bVuF9QJfjY2vHi.jpg?size=226x240&quality=95&type=album',
                 hours: {
                     regular: 10,
                     advanced: 20
@@ -177,7 +177,7 @@ const placeholder: Department = {
             {
                 title: 'Программа 1C: Бухгалтерия',
                 describe: 'Программа 1С Бухгалтерия - это самая популярная программа для бухгалтерского учета, самое известное решение фирмы 1С. Программа 1С: Бухгалтерия предназначена для автоматизации бухгалтерского и налогового учета, простого кадрового и зарплатного учета. С помощью Программы 1С: Бухгалтерия можно подготовить и сдать отчетность компании или индивидуального предпринимателя.',
-                image: 'https://rozetked.me/images/uploads/dwoilp3BVjlE.jpg',
+                image: 'https://sun9-east.userapi.com/sun9-21/s/v1/ig2/IQXBTLxBEcP9zVGYv-EdELaLNMAK6z8AO9YDdUPi5ovlFjsObWpl94DBKEbN6BX_wFhHWhNhY6bVuF9QJfjY2vHi.jpg?size=226x240&quality=95&type=album',
                 hours: {
                     regular: 36,
                     advanced: 20
@@ -186,7 +186,7 @@ const placeholder: Department = {
             {
                 title: 'Кассовые операции',
                 describe: 'Программа нацелена на изучение признаков платежеспособности банкнот и монеты Банка России, работа на оборудовании для проверки и пересчёта банкнот и монеты. Изучение алгоритма действий при обнаружении фальшивых купюр, что такое кассовая дисциплина и как с ней работают, работа с онлайн кассами.',
-                image: 'https://rozetked.me/images/uploads/dwoilp3BVjlE.jpg',
+                image: 'https://sun9-east.userapi.com/sun9-21/s/v1/ig2/IQXBTLxBEcP9zVGYv-EdELaLNMAK6z8AO9YDdUPi5ovlFjsObWpl94DBKEbN6BX_wFhHWhNhY6bVuF9QJfjY2vHi.jpg?size=226x240&quality=95&type=album',
                 hours: {
                     regular: 10,
                     advanced: 20
@@ -196,7 +196,7 @@ const placeholder: Department = {
                 title: 'Бизнес-планирование',
                 describe: 'Эффективное развитие практически любого предприятия в современных условиях невозможно без разработки бизнес-плана. Бизнес-планирование дает возможность определить оптимальный вариант развития предприятия на ближайшие и отдаленные периоды в соответствии с параметрами рынка и возможностями получения необходимых ресурсов.' +
                     '<br/> Программа предназначена для слушателей, желающих повысить свою квалификацию, а также для руководителей предприятий, владельцев бизнеса, специалистов в сфере экономики и менеджмента.',
-                image: 'https://rozetked.me/images/uploads/dwoilp3BVjlE.jpg',
+                image: 'https://sun9-east.userapi.com/sun9-21/s/v1/ig2/IQXBTLxBEcP9zVGYv-EdELaLNMAK6z8AO9YDdUPi5ovlFjsObWpl94DBKEbN6BX_wFhHWhNhY6bVuF9QJfjY2vHi.jpg?size=226x240&quality=95&type=album',
                 hours: {
                     regular: 10,
                     advanced: 20
@@ -205,7 +205,7 @@ const placeholder: Department = {
             {
                 title: 'Программа 1C: Управление торговлей',
                 describe: 'Программа 1С: Управление торговлей — это программа для оптовой и розничной торговли. Позволяет в комплексе автоматизировать управление продажами и финансами, складом, закупками, запасами. В «Программа 1С: Управление торговлей» удобно реализован торговый, складской, финансовый, оперативный и управленческий учет, а также работа с клиентами. «Программа 1С: Управление торговлей 11» является обновленной версией решения «Программа 1С: Торговля и склад».',
-                image: 'https://rozetked.me/images/uploads/dwoilp3BVjlE.jpg',
+                image: 'https://sun9-east.userapi.com/sun9-21/s/v1/ig2/IQXBTLxBEcP9zVGYv-EdELaLNMAK6z8AO9YDdUPi5ovlFjsObWpl94DBKEbN6BX_wFhHWhNhY6bVuF9QJfjY2vHi.jpg?size=226x240&quality=95&type=album',
                 hours: {
                     regular: 36,
                     advanced: 20

@@ -150,8 +150,8 @@ html {
   }
 
   // states
-  $regular: green;
-  $advanced: darkred;
+  $regular: #008080;
+  $advanced: #b73746;
 
   &.with-state {
     &:before {
