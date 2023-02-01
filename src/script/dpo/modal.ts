@@ -9,6 +9,7 @@ export class Modal {
     $mImg: HTMLImageElement
     $closeBtn: HTMLButtonElement
     $addBtn: HTMLButtonElement
+    $price: HTMLDivElement
     courseState: CourseStates
 
     constructor() {
@@ -35,6 +36,7 @@ export class Modal {
         this.$mHours = document.querySelector('.modal__text .hours')
         this.$closeBtn = document.querySelector('.modal .button')
         this.$addBtn = document.querySelector('.modal .button.accent')
+        this.$price = document.querySelector('.modal .price')
     }
 
     setContent(course: Course): void {
@@ -42,6 +44,7 @@ export class Modal {
         this.$mHours.textContent = `${course.hours.regular}`
         this.$mDescribe.innerHTML = course.describe
         this.$mImg.src = course.image
+        this.$price.textContent = course.price.toString()
 
         this.showModal()
         this.$addBtn.focus()

@@ -44,6 +44,14 @@
     & button {
       margin: 0 5px;
     }
+
+    &.mb {
+      margin-bottom: 10px;
+    }
+
+    &.left {
+      justify-content: flex-start;
+    }
   }
 
   &-fieldset {
@@ -79,5 +87,10 @@
     & span {
       font-weight: bold;
     }
+  }
+
+  & .price {
+    display: inline-block;
+    margin-left: 5px;
   }
 }

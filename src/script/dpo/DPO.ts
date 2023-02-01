@@ -117,6 +117,7 @@ export class DPO {
     }
 
     renderSelectedCourse() {
+        const totalPrice = this.card.reduce<number>((acc, item: CourseWithState) => acc + item.price, 0) || 0
         const $selectedWrap = document.querySelector('.selected-course .course-wrap')
         $selectedWrap.innerHTML = this.card.map((item: CourseWithState) => this.renderCourseTemplate(item, item.courseState)).join('')
 
@@ -131,6 +132,8 @@ export class DPO {
 
         // insert in form
 
+        const $priceItem = document.querySelector('.total-price')
+        $priceItem.textContent = totalPrice.toString()
         const formCourseUl = document.querySelector('.form-course')
         formCourseUl.innerHTML = ''
         if (this.card.length === 0) {

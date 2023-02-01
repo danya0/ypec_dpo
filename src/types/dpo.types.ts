@@ -2,6 +2,7 @@ export interface Course {
     title: string,
     describe: string,
     image?: string,
+    price: number,
     hours: {
         regular: number,
         advanced?: number
