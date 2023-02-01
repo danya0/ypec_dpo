@@ -138,7 +138,8 @@ export class DPO {
         }
         this.card.map((item: CourseWithState) => {
             const li = document.createElement('li')
-            li.textContent = `${item.title} (${item.courseState === CourseStates.regular ? 'Обычный' : 'Продвинутый'} уровень)`
+            // li.textContent = `${item.title} (${item.courseState === CourseStates.regular ? 'Обычный' : 'Продвинутый'} уровень)`
+            li.textContent = `${item.title}`
             formCourseUl.appendChild(li)
         })
     }

@@ -157,7 +157,7 @@ html {
     &:before {
       z-index: 1;
       content: '';
-      background: red;
+      background: transparent;
       padding: 3px;
       position: absolute;
       right: 0;
@@ -165,14 +165,18 @@ html {
     }
   }
 
-  &.regular {
-    box-sizing: border-box;
-    border: 5px solid $regular;
+  //&.regular {
+  //  box-sizing: border-box;
+  //  border: 5px solid $regular;
+  //
+  //  &:before {
+  //    content: 'Обычный';
+  //    background: $regular;
+  //  }
+  //}
 
-    &:before {
-      content: 'Обычный';
-      background: $regular;
-    }
+  &.regular {
+
   }
 
   &.advanced {

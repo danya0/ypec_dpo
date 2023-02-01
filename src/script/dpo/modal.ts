@@ -43,7 +43,6 @@ export class Modal {
         this.$mDescribe.innerHTML = course.describe
         this.$mImg.src = course.image
 
-        console.log('this.$addBtn ->', this.$addBtn)
         this.showModal()
         this.$addBtn.focus()
     }
@@ -60,7 +59,9 @@ export class Modal {
 
     buttonHandler(cb: Function) {
         this.$addBtn.addEventListener('click', () => {
-            this.courseState = (document.querySelector('.modal input[name="courseState"]:checked') as HTMLInputElement).id == CourseStates.regular ? CourseStates.regular : CourseStates.advanced
+            // this.courseState = (document.querySelector('.modal input[name="courseState"]:checked') as HTMLInputElement).id == CourseStates.regular ? CourseStates.regular : CourseStates.advanced
+            // выбора уровня курсов пока нет, возвращать всегда регуляр
+            this.courseState = CourseStates.regular
             cb()
             this.hideModal()
         })

@@ -15,8 +15,8 @@
             <div class="modal-content">
                 <div class="modal__title">Физико-химические методы анализа в деятельности испытательной лаборатории</div>
                 <div class="modal__text">Количество часов: <span class="hours">48</span></div>
-                <div class="modal__describe">Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание </div>
-                <fieldset class="modal-fieldset">
+                <div class="modal__describe">Описание</div>
+                <fieldset class="modal-fieldset" style="display: none">
                     <legend>Уровень курса</legend>
                     <input tabindex="0" id="regular" type="radio" name="courseState" checked/>
                     <label for="regular">Обычный</label>
@@ -76,8 +76,12 @@
                         <input class="form__input" id="fio" required type="text">
                     </div>
                     <div class="form-row">
-                        <label for="number" class="form__label">Номер телефона (в формате 8999002121):</label>
-                        <input class="form__input" id="number" maxlength="11" pattern="[0-9]{11}" required type="tel">
+                        <label for="number" class="form__label">Номер телефона (в формате 89999002121):</label>
+                        <input class="form__input" id="number" maxlength="10" pattern="[0-9]{11}" required type="tel">
+                    </div>
+                    <div class="form-row">
+                        <label for="group" class="form__label">Номер группы:</label>
+                        <input class="form__input" id="group" maxlength="6" required>
                     </div>
                 </div>
                 <div class="form-buttons">
